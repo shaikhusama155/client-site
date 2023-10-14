@@ -1,0 +1,773 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+    <link rel="icon" type="image/x-icon"
+    href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHsAAAB7CAMAAABjGQ9NAAAAY1BMVEUAAAD////r6+u/v7/19fXf39+RkZH8/Py0tLR3d3fy8vJISEjV1dXc3Nzm5uaoqKiYmJg/Pz9RUVFvb2/Ozs6goKAvLy8nJycfHx+GhoZYWFhlZWUPDw9+fn42NjZeXl4YGBizFcKgAAAEe0lEQVRoge3b63qiMBAG4IAoNSCe67Ha+7/KBZEwk0zIRJLtPlvn11YX3oZ8BBKoSH6uxNuOUWlbWQQ7H/56cRdt3Vah7X1xPc4Gvt+JvrZh7ctjpwV9POuqvoEtiF/yZTvfPndapJb/sYS0KMLZ2aXfa/V3bUALsaZxbK9D2fkZ7feTPOyR7ELgulJ4FDtbC72uxGHfR7Dl2aCFOEz/hk3SdZ8vhu1bANtC17jecmx/jrczFLM7/OGo9XloO7/B/c2SD7R/nPZVWFuihDcXpwkC0GEPa6fogLdXB9TyIwwcto/j7HRj0hp+AHhIm6a18QvgAW08msHLMWr5VfX5LJidHWy0hovuVAtmS3Ry6bdfZNqxTUBMm0p4XR/dDRMOXBnSttAncaHxRTjbSgtx7n4w8VMI25Lwdt803lzPsX19yZYo4SpmX88Pzt0EAQeuCtHu9BPuYa/TNd71uYaP7+8K9bXR6qbuJL5GF9hX7IqO2Rfa7ZlMu1betiXhc22/m+6LAdzXlqivrTQL97QtCTdpMCWcEF++YKdoDFcJp+i65dKBe9mWmNF0HbgOtxx2H9uTrls+nHYPm5lwWEU3wpE43864CWfjbBsn3BEzgA+knWunxn04ix5MO9N+oa+7sqedZ4+gB9LOsuUY2h44jo0T7tHXBq7fTDhtSd8qbAW/LGk3ViZ0m0547kPb0v6tr0xoNj3nyvkHvC067c/7dottme75tbopOu0h4HJkZ3TC/Wlb2o9Tm53Tcy7fA67h9rQDG08B2GO4FXemvbcl6uuRrW7KmXZl43Uz79GMKjrt/SKgIOkArW6KTrtaBHzaeegD3hYduG4R8Gmjk2t0zFz4cxFQmK1ehqNB4Hbo46qzczRrC9hqhKOWP/pc6BeKYH09jDfPWIQ2pwzc6qboPi9kbaMpegTahp8TgX7+iEEDHAVuKeARj0SDPi/Bh1sBmGg0xL/VZ3PRP1mISIPhtVT3g1tRdf+cxKRBny+6u4S96Mb5XVwa4M+pxy2vz++yvoSdq9g0fFLenNbzrB3PZf/83E0Xy92unNZV1TVtqyzLnfuuTvV5ItM8Me6R3fTW9pw/nzm3VWlvC9tu+mZ9xSBJ7s6tN2hrZDP6ep/Ya+revIBvhkCbE7OdDqKGMHDaZiXceNrracOWK5s55zIfc3vaIHDKXrq3CmOLuWG7z5BQ9sWwV+6N3nZge+/eKJCtXul627/UZo5rQ+N5ztvF1w/a5pj6tmPbZn8PPUYNa59etUuafVT2tt/2v25bn5njGpobSN4u1DrxL7PV6qGyd+6N/gNbTWV/wFbr1Mpe8Dac0OyjGPNvtAtlV1fWhgdJu4m+Cm8vdej6ZzXmS+VkbSx/XZBI7iM8dbvZz/25i1vH/YSqJfN37993A3bp3ixIqaVTuObhXiYKUTdizYMd05EFTlK4zsS8XRxVp4S29bcbI9Q9sdnR8W1ut7l3EC+W9hqz/q6FjLeGfdFHJfP9lnTFHBu96jo3Z8/UO0V5Gr6oy8CIv5sbXb/V/gMKmz/TpLX24AAAAABJRU5ErkJggg==">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600;700&family=Montserrat:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+    
+</head>
+<body>
+       <!-- Header Start -->
+       <div class="container-fluid bg-dark px-0">
+        <div class="row gx-0">
+            <div class="col-lg-3 bg-dark d-none d-lg-block">
+                <a href="index.html"
+                    class="navbar-brand w-100 h-100 m-0 p-0 d-flex align-items-center justify-content-center">
+                    <h5 class="m-0 text-primary text-uppercase" id="navname">NaranInternational</h5>
+                </a>
+            </div>
+            <div class="col-lg-9">
+                <div class="row gx-0 bg-white d-none d-lg-flex">
+                    <div class="col-lg-7 px-5 text-start">
+                        <div class="h-100 d-inline-flex align-items-center py-2 me-4">
+                            <i class="fa fa-envelope text-primary me-2"></i>
+                            <a class="mb-0" href="mailto:nihbbqdelights3@gmail.com">nihbbqdelights3@gmail.com</a>
+                        </div>
+                        <div class="h-100 d-inline-flex align-items-center py-2">
+                            <i class="fa fa-phone-alt text-primary me-2"></i>
+                            <a class="mb-0" href="tel:0210997430445">0997430445</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-5 px-5 text-end">
+                        <div class="d-inline-flex align-items-center py-2">
+                            <b>      More than <b style="color: orange;">50%</b> discounts in off season</b> 
+
+                        </div>
+                    </div>
+                </div>
+                <nav class="navbar navbar-expand-lg bg-dark navbar-dark p-3 p-lg-0">
+                    <a href="index.html" class="navbar-brand d-block d-lg-none">
+                        <h1 class="m-0 text-primary text-uppercase" id="navname2">NaranInternational</h1>
+                    </a>
+                    <button type="button" class="navbar-toggler" data-bs-toggle="collapse"
+                        data-bs-target="#navbarCollapse">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+                        <div class="navbar-nav mr-auto py-0">
+                            <a href="index.html" class="nav-item nav-link active">Home</a>
+                            <a href="about.html" class="nav-item nav-link">About</a>
+                            <a href="service.html" class="nav-item nav-link">Services</a>
+
+                            <a href="contact.html" class="nav-item nav-link">Contact</a>
+                            <a href="Restaurant.html" class="nav-item nav-link">Restaurant</a>
+                            
+                        </div>
+                        <a onclick="admincode()"
+                            class="btn btn-primary rounded-0 py-4 px-md-5 d-none d-lg-block">Admin<i
+                                class="fa fa-arrow-right ms-3"></i></a>
+                    </div>
+            </div>
+            </nav>
+        </div>
+    </div>
+</div>
+<!-- Header End -->
+
+
+      <!-- Page Header Start -->
+      <div class="container-fluid page-header mb-5 p-0" style="background-image: url(img/carousel-1.jpg);">
+        <div class="container-fluid page-header-inner py-5">
+            <div class="container text-center pb-5">
+                <h1 class="display-3 text-white mb-3 animated slideInDown">Barbecus Delight Restaurant</h1>
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb justify-content-center text-uppercase">
+                        <li class="breadcrumb-item"><a href="./index.html">Home</a></li>
+                        <li class="breadcrumb-item text-white active" aria-current="page">Restaurant</li>
+                    </ol>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <!-- Page Header End -->
+
+
+  <div class="main">
+    <div  class="menumaincontainer" style="display: flex; justify-content: space-between; padding-left: 50px; padding-right: 80px; flex-wrap: wrap;">
+        <div class="menu-main-container">
+            <h1 style="color: #FEA116;">Steak House Specialities</h1>
+            <br>
+            <div>
+                <h4>Chicken Steak</h4>
+                <p>Rs.1,400/-</p>
+            </div>
+            <div>
+                <h4>PepperSteak (Beef)</h4>
+                <p>Rs.2,000/-</p>
+            </div>
+            <div>
+                <h4>B.B.QTenderloin Steak (Beef)</h4>
+                <p>Rs.2,000/-</p>
+            </div>
+            <div>
+                <h4>Mexican Steak(Chicken&Beef)</h4>
+                <p>Rs.2,000/-</p>
+            </div>
+        </div>
+            
+        <div style="padding-top: 70px;" class="img-div">
+            <img class="menu-image" style=" height: 300px; border: 2px dotted orange; border-radius: 50px;" src="https://images.unsplash.com/photo-1546964124-0cce460f38ef?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8U3RlYWt8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=600&q=60" alt="">
+        </div>
+    </div>
+
+<br>
+<center>
+    <hr>
+</center>
+<br>
+
+    <div  class="menumaincontainer" style="display: flex; justify-content: space-between; padding-left: 50px; padding-right: 80px; flex-wrap: wrap;">
+        <div style="padding-top: 90px;" class="img-div">
+            <img class="menu-image" style=" height: 300px; border: 2px dotted orange; border-radius: 50px;" src="https://images.unsplash.com/photo-1659275799237-cbc057d97e7f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fEFmZ2hhbiUyMGthYmFifGVufDB8fDB8fHww&auto=format&fit=crop&w=600&q=60" alt="">
+        </div>
+        <div class="menu-main-container">
+            <h1 style="color: #FEA116;">Afghan Middle Specialities</h1>
+            <br>
+            <div>
+                <h4>AfghaniTikka Beef</h4>
+                <p>Rs.1,400/-</p>
+            </div>
+            <div>
+                <h4>AfghaniChickenKabab</h4>
+                <p>Rs.2,000/-</p>
+            </div>
+            <div>
+                <h4>RoyalKabuliPulao</h4>
+                <p>Rs.2,000/-</p>
+            </div>
+            <div>
+                <h4>CheloJoojeh</h4>
+                <p>Rs.2,000/-</p>
+            </div>
+            <div>
+                <h4>DumbaNamkeenSeekh</h4>
+                <p>Rs.2,800/-</p>
+            </div>
+            <div>
+                <h4>MuttonNamkeen(Full)</h4>
+                <p>Rs.3,000/-</p>
+            </div>
+            <div>
+                <h4>MuttonNamkeen(Half)</h4>
+                <p>Rs.1,600/-</p>
+            </div>
+        </div>
+            
+    </div>
+
+<br>
+<center>
+    <hr>
+</center>
+<br>
+
+    <div  class="menumaincontainer" style="display: flex; justify-content: space-between; padding-left: 50px; padding-right: 80px; flex-wrap: wrap;">
+       
+        <div class="menu-main-container">
+            <h1 style="color: #FEA116;">From Our Tundoor</h1>
+            <br>
+            <div>
+                <h4>Kandhari Naan</h4>
+                <p>Rs.70/-</p>
+            </div>
+            <div>
+                <h4>Roghni Naan</h4>
+                <p>Rs.90/-</p>
+            </div>
+            <div>
+                <h4>Garlic Naan</h4>
+                <p>Rs.90/-</p>
+            </div>
+            <div>
+                <h4>Paratha</h4>
+                <p>Rs.70/-</p>
+            </div>
+            <div>
+                <h4>Beef Qeema Naan</h4>
+                <p>Rs.1,200/-</p>
+            </div>
+            <div>
+                <h4>Chicken Quuma Naan</h4>
+                <p>Rs.1,200/-</p>
+            </div>
+            <div>
+                <h4>Plain Naan</h4>
+                <p>Rs.60/-</p>
+            </div>
+            <div>
+                <h4>Cheese Naan</h4>
+                <p>Rs.600/-</p>
+            </div>
+        </div>
+            
+        <div style="padding-top: 90px;" class="img-div">
+            <img class="menu-image" style=" height: 300px; border: 2px dotted orange; border-radius: 50px;" src="https://media.istockphoto.com/id/1135777196/photo/traditional-flat-bread.webp?b=1&s=170667a&w=0&k=20&c=wfP1XSQTfw6F7vCDO9qfzWjpQ-eYr3Gafuwa4Mt7BvE=" alt="">
+        </div>
+    </div>
+
+    <br>
+    <center>
+        <hr>
+    </center>
+    <br>
+
+
+    <div  class="menumaincontainer" style="display: flex; justify-content: space-between; padding-left: 50px; padding-right: 80px; flex-wrap: wrap;">
+        <div style="padding-top: 90px;" class="img-div">
+            <img class="menu-image" style=" height: 300px; border: 2px dotted orange; border-radius: 50px;" src="https://images.unsplash.com/photo-1612528443702-f6741f70a049?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fEJldmVyYWdlc3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=600&q=60" alt="">
+        </div>
+        <div class="menu-main-container">
+            <h1 style="color: #FEA116;">Beverages</h1>
+            <br>
+            <div>
+                <h4>Coffee</h4>
+                <p>Rs.200/-</p>
+            </div>
+            <div>
+                <h4>Cold Drink</h4>
+                <p>Rs.90/-</p>
+            </div>
+            <div>
+                <h4>Cold Drink Regular TinCan</h4>
+                <p>Rs.120/-</p>
+            </div>
+            <div>
+                <h4>Fresh Lime</h4>
+                <p>Rs.140/-</p>
+            </div>
+            <div>
+                <h4>Lassi(Sweet & Salted)</h4>
+                <p>Rs.300/-</p>
+            </div>
+            <div>
+                <h4>Premium Drinking Water(S)</h4>
+                <p>Rs.60/-</p>
+            </div>
+            <div>
+                <h4>Premium Drinking Water(L)</h4>
+                <p>Rs.75/-</p>
+            </div>
+            <div>
+                <h4>Chai</h4>
+                <p>Rs.150/-</p>
+            </div>
+            <div>
+                <h4>Green Tea</h4>
+                <p>Rs.100/-</p>
+            </div>
+            <div>
+                <h4>Mint Lemonade</h4>
+                <p>Rs.250/-</p>
+            </div>
+        </div>
+            
+    </div>
+
+
+
+
+
+
+    <br>
+    <center>
+        <hr>
+    </center>
+    <br>
+
+
+    <div  class="menumaincontainer" style="display: flex; justify-content: space-between; padding-left: 50px; padding-right: 80px; flex-wrap: wrap;">
+        <div class="menu-main-container">
+            <h1 style="color: #FEA116;">Bar.B.Q Specialities</h1>
+            <br>
+            <div>
+                <h4>Bar.B.Q Special Platter</h4>
+                <p>Rs.5,800/-</p>
+            </div>
+            <div>
+                <h4>Mixed Grill</h4>
+                <p>Rs.3,400/-</p>
+            </div>
+            <div>
+                <h4>Bar.B.QMutton Leg</h4>
+                <p>Rs.3,500/-</p>
+            </div>
+            <div>
+                <h4>Bar.B.QMutton Ribs</h4>
+                <p>Rs.2,700/-</p>
+            </div>
+            <div>
+                <h4>Bar.B.QMutton Chops</h4>
+                <p>Rs.2,150/-</p>
+            </div>
+            <div>
+                <h4>Malai Tikka</h4>
+                <p>Rs.1,400/-</p>
+            </div>
+            
+        </div>
+        <div style="padding-top: 90px;" class="img-div">
+            <img class="menu-image" style=" height: 300px; border: 2px dotted orange; border-radius: 50px;" src="https://media.istockphoto.com/id/1081828956/photo/spicy-barbecued-chicken-tikka-boti-on-skewers-served-in-a-plate-with-green-chutney-selective.webp?b=1&s=170667a&w=0&k=20&c=s8peVWoLLtrktdCikLmPFd06Q6tIGPUhAcHMxyelAKY=" alt="">
+        </div>
+            
+    </div>
+
+
+    <br>
+    <center>
+        <hr>
+    </center>
+    <br>
+
+
+    <div  class="menumaincontainer" style="display: flex; justify-content: space-between; padding-left: 50px; padding-right: 80px; flex-wrap: wrap;">
+        <div style="padding-top: 90px;" class="img-div">
+            <img class="menu-image" style=" height: 300px; border: 2px dotted orange; border-radius: 50px;" src="https://images.unsplash.com/photo-1606313564200-e75d5e30476c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fERlc3NlcnRzfGVufDB8fDB8fHww&auto=format&fit=crop&w=600&q=60" alt="">
+        </div>
+        <div class="menu-main-container">
+            <h1 style="color: #FEA116;">Desserts</h1>
+            <br>
+            <div>
+                <h4>Ice Cream</h4>
+                <p>Rs.400/-</p>
+            </div>
+            <div>
+                <h4>Fruit Trifle</h4>
+                <p>Rs.400/-</p>
+            </div>
+            <div>
+                <h4>Kheer</h4>
+                <p>Rs.300/-</p>
+            </div>
+            <div>
+                <h4>Suji Halwa</h4>
+                <p>Rs.350/-</p>
+            </div>
+        </div>
+            
+    </div>
+
+
+
+    <br>
+    <center>
+        <hr>
+    </center>
+    <br>
+
+
+    <div  class="menumaincontainer" style="display: flex; justify-content: space-between; padding-left: 50px; padding-right: 80px; flex-wrap: wrap;">
+        <div class="menu-main-container">
+            <h1 style="color: #FEA116;">Bar.B.Q Dishes</h1>
+            <br>
+            <div>
+                <h4>Chicken Tikka</h4>
+                <p>Rs.450/-</p>
+            </div>
+            <div>
+                <h4>Chicken Boti</h4>
+                <p>Rs.900/-</p>
+            </div>
+            <div>
+                <h4>Beef Seekh Kabab</h4>
+                <p>Rs.1,200/-</p>
+            </div>
+            <div>
+                <h4>Chicken Reshmi Kabab</h4>
+                <p>Rs.1,200/-</p>
+            </div>
+            <div>
+                <h4>Mutton Seekh Kabab</h4>
+                <p>Rs.1,400/-</p>
+            </div>
+            <div>
+                <h4>Mutton Gola Kabab</h4>
+                <p>Rs.1,400/-</p>
+            </div>
+            <div>
+                <h4>Mutton Hunzai Kabab</h4>
+                <p>Rs.1,500/-</p>
+            </div>
+            <div>
+                <h4>Beef Behari Kabab</h4>
+                <p>Rs.1,200/-</p>
+            </div>
+            <div>
+                <h4>Chicken Behari Kabab</h4>
+                <p>Rs.1,200/-</p>
+            </div>
+            <div>
+                <h4>Chicken Cheese Kabab</h4>
+                <p>Rs.1,400/-</p>
+            </div>
+        </div>
+        <div style="padding-top: 90px;" class="img-div">
+            <img class="menu-image" style=" height: 300px; border: 2px dotted orange; border-radius: 50px;" src="https://images.unsplash.com/photo-1555939594-58d7cb561ad1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGJicXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=600&q=60" alt="">
+        </div>
+        
+    </div>
+    
+
+
+
+    <br>
+    <center>
+        <hr>
+    </center>
+    <br>
+
+
+    <div  class="menumaincontainer" style="display: flex; justify-content: space-between; padding-left: 50px; padding-right: 80px; flex-wrap: wrap;">
+        <div style="padding-top: 90px;" class="img-div">
+            <img class="menu-image" style=" height: 300px; border: 2px dotted orange; border-radius: 50px;" src="https://images.unsplash.com/photo-1532465909-4e0278962a2b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8U3RhcnRlcnN8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=600&q=60" alt="">
+        </div>
+        <div class="menu-main-container">
+            <h1 style="color: #FEA116;">Starters</h1>
+            <br>
+            <div>
+                <h4>Corn Soup</h4>
+                <p>Rs.350/-</p>
+            </div>
+            <div>
+                <h4>Mulligatawny Soup</h4>
+                <p>Rs.350/-</p>
+            </div>
+            <div>
+                <h4>Chicken Wings with Hot Sauce</h4>
+                <p>Rs.850/-</p>
+            </div>
+            <div>
+                <h4>Green Salad</h4>
+                <p>Rs.350/-</p>
+            </div>
+            <div>
+                <h4>Turkish Salad</h4>
+                <p>Rs.450/-</p>
+            </div>
+            <div>
+                <h4>Special Delight Soup</h4>
+                <p>Rs.1,000/-</p>
+            </div>
+            <div>
+                <h4>Trout Fish Special Soup</h4>
+                <p>Rs.1,200/-</p>
+            </div>
+            <div>
+                <h4>Russian Salad</h4>
+                <p>Rs.450/-</p>
+            </div>
+            <div>
+                <h4>Kachumber Salad</h4>
+                <p>Rs.300/-</p>
+            </div>
+            <div>
+                <h4>French Fries</h4>
+                <p>Rs.350/-</p>
+            </div>
+            <div>
+                <h4>Hummus</h4>
+                <p>Rs.500/-</p>
+            </div>
+            <div>
+                <h4>Raita</h4>
+                <p>Rs.400/-</p>
+            </div>
+            <div>
+                <h4>Aloo Bukhara(Plum)Chatney</h4>
+                <p>Rs.500/-</p>
+            </div>
+        </div>
+            
+    </div>
+
+
+
+
+    <br>
+    <center>
+        <hr>
+    </center>
+    <br>
+
+
+    <div  class="menumaincontainer" style="display: flex; justify-content: space-between; padding-left: 50px; padding-right: 80px; flex-wrap: wrap;">
+        <div class="menu-main-container">
+            <h1 style="color: #FEA116;">Sea Food Specialities</h1>
+            <br>
+            <div>
+                <h4>Fried Fish</h4>
+                <p>Rs.1,600/-</p>
+            </div>
+            <div>
+                <h4>Fried Prawns</h4>
+                <p>Rs.1,800/-</p>
+            </div>
+            <div>
+                <h4>Finger Fish</h4>
+                <p>Rs.1,400/-</p>
+            </div>
+            <div>
+                <h4>Grilled Jumbo Prawns</h4>
+                <p>Rs.2,500/-</p>
+            </div>
+            <div>
+                <h4>Fish Tikka</h4>
+                <p>Rs.1,800/-</p>
+            </div>
+            <div>
+                <h4>Grilled Whole Red Snapper</h4>
+                <p>Rs.4,000/-</p>
+            </div>
+            <div>
+                <h4>Special Trout Fish</h4>
+                <p>Rs.2,200/-</p>
+            </div>
+        </div>
+            
+        <div style="padding-top: 90px;" class="img-div">
+            <img class="menu-image" style=" height: 300px; border: 2px dotted orange; border-radius: 50px;" src="https://images.unsplash.com/photo-1568782947821-3d660dacc7cb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fEZyaWVkJTIwUHJhd25zfGVufDB8fDB8fHww&auto=format&fit=crop&w=600&q=60" alt="">
+        </div>
+    </div>
+
+
+    <br>
+    <center>
+        <hr>
+    </center>
+    <br>
+
+
+    <div  class="menumaincontainer" style="display: flex; justify-content: space-between; padding-left: 50px; padding-right: 80px; flex-wrap: wrap;">
+        <div style="padding-top: 90px;" class="img-div">
+            <img class="menu-image" style=" height: 300px; border: 2px dotted orange; border-radius: 50px;" src="https://images.unsplash.com/photo-1603133872878-684f208fb84b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Q2hpY2tlbiUyMGZyaWVkJTIwcmljZXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=600&q=60" alt="">
+        </div>
+        <div class="menu-main-container">
+            <h1 style="color: #FEA116;">Chefs Recommendation</h1>
+            <br>
+            <div>
+                <h4>Prawn Masla</h4>
+                <p>Rs.2,000/-</p>
+            </div>
+            <div>
+                <h4>Chicken Karahi</h4>
+                <p>Rs.1,800/-</p>
+            </div>
+            <div>
+                <h4>Mutton Karahi</h4>
+                <p>Rs.2,600/-</p>
+            </div>
+            <div>
+                <h4>Tawa Chicken</h4>
+                <p>Rs.1,000/-</p>
+            </div>
+            <div>
+                <h4>Chicken Ginger</h4>
+                <p>Rs.1,800/-</p>
+            </div>
+            <div>
+                <h4>Chicken Handi</h4>
+                <p>Rs.1,800/-</p>
+            </div>
+            <div>
+                <h4>Reshmi Paneer</h4>
+                <p>Rs.1,800/-</p>
+            </div>
+
+            <div>
+                <h4>White Chicken Karahi</h4>
+                <p>Rs.1,800/-</p>
+            </div> <div>
+                <h4>Brain Masala</h4>
+                <p>Rs.2,000/-</p>
+            </div> <div>
+                <h4>Mixes Vegetable</h4>
+                <p>Rs.1,000/-</p>
+            </div> <div>
+                <h4>Palak Paneer</h4>
+                <p>Rs.1,200/-</p>
+            </div> <div>
+                <h4>Daal</h4>
+                <p>Rs.850/-</p>
+            </div> <div>
+                <h4>Chicken Chargha(Full)</h4>
+                <p>Rs.1,400/-</p>
+            </div> <div>
+                <h4>Chicken Chargha(Half)</h4>
+                <p>Rs.700/-</p>
+            </div> <div>
+                <h4>Vegetable Rice</h4>
+                <p>Rs.400/-</p>
+            </div> <div>
+                <h4>Egg Fried Rice</h4>
+                <p>Rs.600/-</p>
+            </div> <div>
+                <h4>Chicken Fried Rice</h4>
+                <p>Rs.800/-</p>
+            </div> <div>
+                <h4>Beef Fried Rice</h4>
+                <p>Rs.1,000/-</p>
+            </div> <div>
+                <h4>Chicken Chowmen</h4>
+                <p>Rs.1,000/-</p>
+            </div> <div>
+                <h4>Chicken Tandoori</h4>
+                <p>Rs.1,000/-</p>
+            </div> <div>
+                <h4>Chicken Chilly</h4>
+                <p>Rs.1,000/-</p>
+            </div> <div>
+                <h4>Chilly Dry</h4>
+                <p>Rs.1,000/-</p>
+            </div>
+        </div>
+            
+    </div>
+  </div>
+
+<br><br><br><br><br><br><br><br>
+  <div class="container-fluid bg-dark text-light footer wow fadeIn" data-wow-delay="0.1s">
+    <div class="container pb-5">
+        <div class="row g-5">
+            <div class="col-md-6 col-lg-4">
+                <div class="bg-primary rounded p-4">
+                    <a href="index.html">
+                        <h2 class="text-white text-uppercase mb-3">Naran International</h2>
+                    </a>
+
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+                <h6 class="section-title text-start text-primary text-uppercase mb-4">Contact</h6>
+                <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i> N 15 Mansehra Chilas Rd, Naran
+                    International Hotel & BarbecueDelights
+                    restaurant , Chapran Naran , Khyber Pakhtunkhwa, Pakistan</p>
+                <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>PTCL no : 0997430445</p>
+                <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>92 347 2047100 </p>
+                <p class="mb-2"><i class="fa fa-envelope me-3"></i>Nihbbqdelights3@gmail.com</p>
+
+            </div>
+            <div class="col-lg-5 col-md-12">
+                <div class="row gy-5 g-4">
+                    <div class="col-md-6">
+                        <h6 class="section-title text-start text-primary text-uppercase mb-4">Pages</h6>
+                        <a class="btn btn-link" href="./about.html">About Us</a>
+                        <a class="btn btn-link" href="./contact.html">Contact Us</a>
+                        <a class="btn btn-link" href="./service.html">Services</a>
+                        <a class="btn btn-link" href="./Restaurant.html">Restaurant</a>
+                    </div>
+                    <div class="col-md-6">
+                        <h6 class="section-title text-start text-primary text-uppercase mb-4">Services</h6>
+                        <a class="btn btn-link" href="">Food & Restaurant</a>
+                        <a class="btn btn-link" href="">Spa & Fitness</a>
+                        <a class="btn btn-link" href="">Sports & Gaming</a>
+                        <a class="btn btn-link" href="">Event & Party</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="copyright">
+            <div class="row">
+                <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                    &copy; <a class="border-bottom" href="#">NaraanInternational</a>, All Right Reserved.
+
+                    <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+                     <a class="border-bottom"><button onclick="portfolio()" style="border: none; background-color: transparent; color:white;">Powered By</button></a>
+                    
+                </div>
+                <div class="col-md-6 text-center text-md-end">
+                    <div class="footer-menu">
+                        <a href="">Home</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Footer End -->
+
+
+<!-- Back to Top -->
+<a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+</div>
+
+<!-- JavaScript Libraries -->
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+<script>
+      function portfolio() {
+            Swal.fire({ title: "<h4>Contact for Developer</h4>",
+         text: "muhammedhasaan09@gmail.com , shaikhusama155@gmail.com",
+          footer: '<br><a href="tel:03168662511">Contact No. : +92 316 8662511</a> , +92 3452788791' });
+        }
+</script>
+<script>
+    async function admincode() {
+        const { value: text } = await Swal.fire({
+            input: 'text',
+            inputLabel: 'Only For Admin',
+            inputPlaceholder: 'Type Your Admin Code Here! ',
+            inputAttributes: {
+                'aria-label': 'Type your message here'
+            },
+            showCancelButton: true
+        })
+
+        if (text == "(cdVeNOM)!69") {
+            window.location.href = "admin789987456654123321.html"
+        } else {
+            const Toast = Swal.mixin({
+                toast: true,
+                position: 'top-end',
+                showConfirmButton: false,
+                timer: 3000,
+                timerProgressBar: true,
+                didOpen: (toast) => {
+                    toast.addEventListener('mouseenter', Swal.stopTimer)
+                    toast.addEventListener('mouseleave', Swal.resumeTimer)
+                }
+            })
+
+            Toast.fire({
+                icon: 'error',
+                title: 'Wrong Key'
+            })
+        }
+    }
+</script>
+</body>
+</html>
